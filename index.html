@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio Lucas</title>
+    <link rel="shortcut icon" href="./img/logo-pequeño.PNG" type="image/x-icon">
+
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <!--Fuentes de google   Principla ubuntu ver segunda fuente -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+     
+
+      <!--Estilos Mios / ver el tema de las rutas-->
+      <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <!--BARRA DE NAVEGACION --> 
+    <nav class="navbar navbar-expand-lg bg-light ">
+        <div class="container nav-personal">
+            <a class="navbar-brand" href="#"> <img class="logo"  src="./img/Gray_and_Black_Simple_Studio_Logo-removebg-preview.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto nav-personal-lista">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/misestudios.html">Mis estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/miexperiencia.html   ">Mi Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contacto.html">Contactame</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <button id="backToTop">↑ Top</button>
+    <header class="heder-personal">
+        <div class="container my-5 ">
+            <div class="row align-items-center">
+              <!-- Columna de texto -->
+              <div class="col-md-6 text-md-start text-center heder-personal-a">
+                <h1 class="header-personal-titulo">Hola, Soy <span>Lucas</span> Lopez de Calle</h1>
+                <p class="header-personal-logan">Tec. Agronomo / Desarollador / P. Management</p>
+                <a href="/contacto.html" class="btn btn-contacto">Contactame</a>
+                <a href="Lopez de calle lucas (1).pdf" class="btn btn-contacto">Descargar CV</a>
+            </div>
+              <!-- Columna de imagen -->
+              <div class="col-md-6 text-md-end text-center profile-image-class">
+                <img src="./img/Diseño sin título (1).png" alt="Foto de perfil" class="profile-image">
+              </div>
+            </div>
+          </div>
+    </header>
+    <hr class=" container custom-hr">
+    <section class="sobremi">
+        <div class="container div-sobremi">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <h1 class="mb-4">Sobre mi</h1>
+                    <p class="text-justify">
+                        Soy Técnico Agrónomo y Desarrollador .NET, una combinación que me permite fusionar mi pasión por la agricultura con el mundo de la tecnología. Mi experiencia en el sector agrario me ha brindado una comprensión profunda de los desafíos y necesidades del campo. Como desarrollador, utilizo estas perspectivas para crear soluciones innovadoras que optimizan procesos y mejoran la eficiencia en el ámbito agrícola.
+
+                        En este portafolio, encontrarás proyectos que reflejan mi compromiso por integrar prácticas agrícolas sostenibles con herramientas tecnológicas de vanguardia. Mi objetivo es impulsar el sector agroalimentario hacia un futuro más productivo y sustentable a través del desarrollo de software especializado.
+                        
+                        Estoy entusiasmado por compartir mi trabajo contigo y abierto a colaborar en iniciativas que generen un impacto positivo en nuestra comunidad y en el medio ambiente.                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class=" container custom-hr">
+    <section class="proyectos">
+        <div class="container div-sobremi">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <h1 class="mb-4">Mis proyectos</h1>
+                    <p class="">
+                        Te invito a que veas algunos de mis proyectos
+                    </p>       
+                </div>
+            </div>
+            <div class="container my-4">
+                <div class="row">
+                  <!-- Card 1 -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card" style="width: 100%;">
+                      <img src="./img/webbernals.PNG" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Berners Developers</h5>
+                        <p class="card-text">Sitio web desarollado con HTML, CSS y JS. Para la parte de estilos se utilizo tambien bootstrap</p>
+                        <a href="https://github.com/gnavarte/bernersDevelopers" class="btn btn-rosa">GitHub</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 2 -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card" style="width: 100%;">
+                      <img src="./img/truco.PNG" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Truco</h5>
+                        <p class="card-text">Juego de cartas desarollado completamente en JAVA, utilizando patron MVC   .</p>
+                        <a href="https://github.com/luquichen/Truco" class="btn btn-rosa">GitHub</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 3 -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card" style="width: 100%;">
+                      <img src="./img/ilex.PNG" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">ILex</h5>
+                        <p class="card-text">Página desarolada con HTML Y CSS para una empresa pionera en yerba mate. Se utilizo bootstrap para adaptar el contenido</p>
+                        <a href="https://luquichen.github.io/PreEntrega2-LucasLopezDeCalle/" class="btn btn-rosa">GitHub</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    
+
+
+    <footer class="bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Datos Personales</h5>
+                        <p>Lucas Jorge Lopez de Calle</p>
+                        <p>+549 1134662297</p>
+                        <p>lucaslcalle@gmail.com</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Enlaces útiles</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/index.html" class="text-white text-decoration-none">Inicio</a></li>
+                        <li><a href="/misestudios.html" class="text-white text-decoration-none">Mis estudios</a></li>
+                        <li><a href="/miexperiencia.html" class="text-white text-decoration-none">Mi experiencia</a></li>
+                        <li><a href="/contacto.html" class="text-white text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Redes sociales</h5>
+                    <a href="https://github.com/luquichen" class="text-white me-3"><i class="bi"></i> GitHub</a>
+                    <a href="https://www.instagram.com/lucaslcalle/" class="text-white"><i class="bi bi-instagram"></i> Instagram</a>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <div class="text-center py-2">
+                &copy; 2024 CvLucas. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+    <script src="./js/model.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

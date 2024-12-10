@@ -1,0 +1,204 @@
+:root {
+    --primary-color: #FF69B4;
+    --secon-color: #C71585;
+    --textColor: #161c2d
+    --backgroud--color : #f8f9fa;
+    box-sizing: border-box;
+    margin:  0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    background-color: var(--backgroud--color);
+    font-size: 16px; 
+  }
+
+
+
+
+.navbar{
+    padding-top: 1.5rem;
+}
+.logo{
+    width: 50%;
+}
+.nav-personal a {
+    font-weight:  400;
+    color: var(--textColor);
+    text-transform: capitalize;
+    font-size: 1rem; 
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    
+}
+
+
+
+.nav-personal-lista .nav-link{ 
+    text-transform: uppercase;
+}
+
+.nav-personal a:hover{
+    color: #869ab8;
+    border-radius: 50px;
+
+}
+
+.heder-personal{
+    margin-top: 150px;
+    height: 85vh;
+}
+.header-personal-titulo{
+    font-weight: bold;
+    font-size: 5rem;
+    color: #161c2d;
+}
+.header-personal-titulo span{
+    color: #f24968;
+}
+.header-personal-logan{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #869ab8;
+
+}
+.profile-image {
+    border-radius: 50%;
+  }
+
+
+.sobremi{
+    height: 50vh;
+}
+.text-justify{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.custom-hr {
+    max-width: 200px;
+    border: none;
+    height: 5px;
+    background-color: #f24968;
+    margin-bottom: 2rem;
+    opacity: 1;
+    border-radius: 10%;
+}
+
+.card-img-top {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 200px; /* Ajusta a una altura fija */
+    object-fit: cover; /* Asegura que la imagen se recorte sin deformarse */
+}
+
+.btn-rosa {
+    background-color: #f24968; /* Cambia este código por el tono de rosa que desees */
+    color: white; /* Asegura que el texto sea legible */
+    border: none; /* Opcional: elimina el borde */
+}
+
+.btn-rosa:hover {
+    background-color: #f24968; /* Color más oscuro para el efecto hover */
+    color: white; /* Mantén el texto legible */
+}
+.btn-contacto{
+    background-color: #f24968; /* Cambia este código por el tono de rosa que desees */
+    color: white; /* Asegura que el texto sea legible */
+    border: none; /* Opcional: elimina el borde */
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #f24968;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 1200px) {
+    .nav-personal a {
+        font-weight:  bold;
+        color: var(--textColor);
+        text-transform: capitalize;
+        font-size: 1rem; 
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+        
+    }
+
+    .header-personal-titulo {
+        font-size: 3rem; /* Reduce el tamaño de la fuente */
+        
+    }
+
+    .profile-image-class{
+        max-width: 30vw;
+    }
+    .profile-image {
+        width: 99%; /* Reduce el tamaño de la imagen */
+        margin: 0 auto; /* Centra la imagen */
+        height: 99%;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Cambia el orden a columnas */
+    }
+    .text-center {
+        text-align: center !important; /* Asegura el centrado */
+    }
+    .header-personal-titulo {
+        font-size: 3rem; /* Reduce el tamaño de la fuente */
+       
+    }
+    .header-personal-logan {
+        font-size: 1.2rem; /* Ajusta el subtítulo */
+    }
+    .profile-image-class{
+        max-width: 50vw;
+    }
+    .profile-image {
+        width: 99%; /* Reduce el tamaño de la imagen */
+        margin: 0 auto; /* Centra la imagen */
+        height: 99%;
+    }
+}
+
+@media (max-width: 480px) {
+    .heder-personal{
+        margin-top: 0px;
+        height: 85vh;
+    }
+    .heder-personal-a a {
+       margin-bottom: 10px;
+    }
+    .header-personal-titulo {
+        font-size: 2rem;
+       
+    }
+    .header-personal-logan {
+        font-size: 1rem;
+    }
+    .profile-image-class{
+        margin-top: 50px;
+        max-width: 90vw;
+    }
+    .profile-image {
+        height: 99%;
+        width: 99%; /* Reduce el tamaño de la imagen */
+        margin: 0 auto; /* Centra la imagen */
+    }
+    .sobremi{
+        height: 100vh;
+    }
+}

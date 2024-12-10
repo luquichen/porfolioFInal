@@ -1,0 +1,19 @@
+.body{
+
+    font-family: "Ubuntu", sans-serif;
+}
+.contacto-personal{
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+.btn-rosa {
+    background-color: #f24968;/* Cambia este código por el tono de rosa que desees */
+    color: white; /* Asegura que el texto sea legible */
+    border: none; /* Opcional: elimina el borde */
+}
+
+.btn-rosa:hover {
+    background-color: #f24968; /* Color más oscuro para el efecto hover */
+    color: white; /* Mantén el texto legible */
+}

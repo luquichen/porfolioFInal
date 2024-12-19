@@ -11,7 +11,7 @@
   body {
     margin: 0;
     font-family: "Ubuntu", sans-serif;
-    background-color: var(--backgroud--color);
+    background-color: var(--background-color-light);
     font-size: 16px; 
   }
 
@@ -122,6 +122,25 @@
     cursor: pointer;
     z-index: 1000;
   }
+
+  .accordion-button {
+    background-color: white; /* Cambia el color de fondo del botón */
+    color: #f24968; /* Cambia el color del texto */
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.accordion-button:focus {
+    box-shadow: none; /* Remueve el borde de enfoque */
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #f24968; /* Cambia el color de fondo cuando el acordeón está abierto */
+    color: white;
+}
+
+
 
 /* Ajustes para pantallas más pequeñas */
 @media (max-width: 1200px) {
